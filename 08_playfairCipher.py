@@ -114,5 +114,3 @@ else:
     encrypted = playfairCipher(text, key)
 
     print("Encrypted text:", encrypted)
-
-print("================================")
