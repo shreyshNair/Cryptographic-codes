@@ -44,12 +44,6 @@ def columnarCipher(text, columns, mode):
 
     return result
 
-
-# Main program
-print("================================")
-print("   COLUMNAR TRANSPOSITION")
-print("================================")
-
 text = input("Enter the text: ")
 
 columns = 4
