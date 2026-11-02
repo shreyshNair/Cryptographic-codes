@@ -41,15 +41,43 @@ The objective is to understand how these algorithms work through simple, interac
 ## Repository Structure
 
 ```text
-Cryptography-and-Network-Security/
+cryptographyLabs/
 │
-├── 01_productCipher.py
-├── 02_saltPepper.py
-├── 03_shiftCipher.py
-├── 04_additiveCipher.py
-├── 05_multiplicativeCipher.py
-├── ...
-├── 22_bufferOverflow.py
+├── Transposition ciphers/
+│   ├── 01_productCipher.py
+│   ├── 16_columnarTransposCipher.py
+│   ├── 17_railfenceCipher.py
+│   └── 19_evenOddCipher.py
+│
+├── substitution ciphers/
+│   ├── 03_shiftCipher.py
+│   ├── 04_additiveCipher.py
+│   ├── 05_multiplicativeCIpher.py
+│   └── 11_affineCipher.py
+│
+├── key-based ciphers/
+│   ├── 06_vernamCipher.py
+│   └── 07_vigenereCipher.py
+│
+├── matrix-based ciphers/
+│   ├── 08_playfairCipher.py
+│   ├── 10_hillCipher.py
+│   └── 15_hillCipher.py
+│
+├── hashing ciphers/
+│   ├── 02_saltPeppercipher.py
+│   ├── 09_hashCipher.py
+│   └── 13_RSAdigitalSign.py
+│
+├── public key ciphers/
+│   ├── 12_RSAPublicKey.py
+│   ├── 14_diffieHellmankey.py
+│   └── 18_eulerTotient.py
+│
+├── security attack/
+│   ├── 20_SQLinjection.py
+│   ├── 21_ManMiddleDH.py
+│   └── 22_bufferOverflow.py
 │
 └── README.md
 ```
