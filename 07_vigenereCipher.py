@@ -13,7 +13,7 @@ def vigenereCipher(text, key, mode):
             char = char.upper()
 
             p = ord(char) - ord("A")
-
+            #different calculation for key
             k = ord(key[j % len(key)]) - ord("A")
 
             if mode == "E":
